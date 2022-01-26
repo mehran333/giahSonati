@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context=".Post">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView82"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="5dp"
+           android:textColor="@color/black"
+            android:background="@drawable/shape_txt"
+            android:gravity="right"
+            android:text="چند راه کار برای چین و چروک و رفع تیرگی پوست:"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView83"
+            android:layout_width="wrap_content"
+            android:layout_height="344dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_txt"
+            android:gravity="right"
+            android:padding="10dp"
+            android:text="با توجه به اینکه عروقی که پوست را تغذیه می‌کنند از ریزترین عروق هستند بنابراین هرگاه سطح  فرای معلق در بدن بالا برود یا صفرا خشک شود، این امر می‌تواند باعث تیرگی و خشکی پوست صورت شود.
+
+برای درمان این خشکی، تیرگی و چروک پوست صورت باید صفرای موجود در بدن را به صفرای لطیف تبدیل کنیم؛ برای تولید این صفرای ‌صورت موضعی می‌توان روزانه به‌مدت 10 دقیقه سر و صورت را با روغن زیتون یا روغن سیاهدانه ماساژ دهیم و برای کف سر و ابرو می‌توان از برس استفاده کرد تا شتاب گردش خون در سر افزایش یابد.
+
+        همچنین برای اینکه صفرای موجود در بدن را به‌صورت خوراکی به صفرای لطیف تبدیل کنیم باید شیرینی‌های لطیف طبیعی میل شود مثل عسل، انگور و خرما و... همچنین مصرف سرکه‌انگبینی که با 1/2 واحد سرکه تولید شده باشد نیز برای این منظور بسیار مفید است.
+
+        از سوی دیگر باید توجه داشت به‌صورت کلی باید از نوشیدن آب سرد همچنین نوشیدن آب بین غذا پرهیز شود و از جویدن کامل غذا غافل نشد؛ این پرهیزات، سلامت کبد را تأمین می‌کند و سلامت کبد، رمز سلامت، شادابی و شفافیت پوست است"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

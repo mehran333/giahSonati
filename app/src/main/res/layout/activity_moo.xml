@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center|center_horizontal"
+    tools:context=".Moo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_moo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:background="@color/white"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="علائم ریزش مو
+همه‌ی ما در هر شبانه روز به طور متوسط ۵۰ تا ۱۰۰ تار از موهای سرمان را از دست می‌دهیم. موهای ریخته شده در حالت عادی با تارهای موی جدید جایگزین شده و تراکم مو ثابت می‌ماند. در صورتی که تعادل بین رشد و ریزش مو به هم بخورد، یعنی ریزش موها بیشتر شود یا رشد موها توقف یابد، به طور کلی گفته می‌شود که فرد دچار ریزش مو شده است. پس موی همه ما می‌ریزد ولی ریزش مو به شرایطی اطلاق می‌شود که تراکم موها کاهش یابد.
+
+بیشتر اوقات ریزش مو به صورت تدریجی اتفاق می‌افتد و تا زمانی که تراکم موهای سر تا حد قابل توجهی کم نشود، متوجه آن نمی‌شویم. در جلوگیری از ریزش مو (و تقریباً تمام مشکلات سلامتی) زمان شروع درمان اهمیت زیادی دارد. یعنی هرچه زودتر برای درمان ریزش موی خود اقدام کنید، احتمال موثر بودن درمان بیشتر می‌شود."
+                android:textColor="#0E0E0E"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_moo"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/chage"
+                android:text="تقویت مو"
+                android:textColor="#FFFF00"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/moo2"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn"
+                android:text="جلو گیری از ریزش"
+                android:textColor="#FF6E40"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

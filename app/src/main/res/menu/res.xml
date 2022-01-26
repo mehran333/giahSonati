@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="امار کروتا"
+    android:id="@+id/corona"
+    android:icon="@drawable/ic_baseline_wheelchair_pickup_24">
+
+</item>
+
+    <item
+        android:title="منابع"
+        android:id="@+id/book"
+        android:icon="@drawable/ic_baseline_menu_book_24">
+
+    </item>
+    <item
+        android:title="ارتباط با ما"
+        android:icon="@drawable/ic_baseline_email_24"
+        android:id="@+id/email"
+        >
+
+    </item>
+
+</menu>

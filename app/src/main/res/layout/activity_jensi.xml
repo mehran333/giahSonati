@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    android:padding="10dp"
+    tools:context=".Jensi">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/jensi" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+
+                android:background="@drawable/shape_txt"
+                android:padding="5dp"
+                android:text="برخی از شایع ترین علل ناتوانی جنسی:"
+                android:textColor="@color/black"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_txt"
+                android:padding="5dp"
+                android:text="بیماری های غدد درون ریز
+ غدد درون ریز بدن هورمونی برای تنظیم متابولیسم، عملکرد جنسی، تولید مثل، نوسانات خلقی و موارد دیگر را ترشح می کند. دیابت نمونه ای از یک بیماری غدد درون ریز است که می تواند باعث ناتوانی جنسی شود. دیابت بر توانایی بدن در استفاده از هورمون انسولین تأثیر می گذارد. یکی از عوارض مرتبط با دیابت مزمن آسیب عصبی است که بر احساس آلت تناسلی مرد اثر می گذارد. سایر عوارض مرتبط با دیابت شامل اختلال در جریان خون و سطح هورمون است. هر دو این عوامل می توانند در ناتوانی جنسی نقش داشته باشند."
+                android:textColor="@color/black"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_txt"
+                android:gravity="right"
+                android:padding="5dp"
+                android:text="دیابت
+دیابت به دلایل بسیاری از نظر مشکلات بهداشتی بسیار جدی است و متأسفانه اختلال نعوظ یکی از عوارض ناشی از دیابت در مردان است. به نحوی که هرچه دیابت فرد طولانی تر باشد، احتمال ابتلا به بیماری ED در او بیشتر است؛ اما مهمتر از همه، این است که کنترل سطح قند خون خود بر میزان خطر ابتلا به ED تاثیر می گذارد. حدود 2 تا 12 درصد از کل مردان 40 ساله به ED مبتلا می شوند که این میزان در افراد با سطح قند خون بالا به 50 درصد می رسد. اختلال نعوظ ناشی از دیابت همیشه یک مشکل کاملا برگشت پذیر نیست، اما مردان می توانند با رعایت توصیه پزشک برای کنترل قند خون از بدتر شدن شرایط خود جلوگیری کنند.
+
+"
+                android:textColor="@color/black"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_txt"
+                android:padding="5dp"
+                android:text="اختلالات عصبی :
+چندین بیماری عصبی می تواند خطر ناتوانی جنسی را افزایش دهد. شرایط عصبی بر توانایی مغز در برقراری ارتباط با سیستم تولید مثل تأثیر می گذارد و می تواند فرد را از رسیدن به نعوظ باز دارد.
+
+اختلالات عصبی مرتبط با ناتوانی جنسی، عبارتند از:
+
+سکته
+بیماری آلزایمر
+صرع لوب تمپورال
+بیماری پارکینسون
+تومورهای مغزی یا نخاعی
+مولتیپل اسکلروزیس (MS)
+علاوه بر آن، جراحی پروستات می تواند منجر به آسیب عصبی و در نتیجه ناتوانی جنسی شود. دوچرخه سواری در مسیرهای طولانی می تواند منجر به ناتوانی جنسی موقتی در مردان شود. فشار مکرر بر روی باسن و دستگاه تناسلی ممکن است بر عملکرد اعصاب تأثیر بگذارد."
+                android:textColor="@color/black"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_txt"
+                android:gravity="right"
+                android:padding="5dp"
+
+                android:text=" مصرف داروها
+مصرف برخی داروهای خاص به عنوان شایع ترین علل ناتوانی جنسی می تواند بر جریان خون تأثیر بگذارد و منجر به اختلال نعوظ در مردان شود؛ اما با این حال مردان نباید مصرف دارو های خود را به طور خودسرانه قطع کنند.
+
+نمونه هایی از داروهایی که می توانند منجر به ناتوانی جنسی شوند، عبارتند از:
+
+مسدود کننده های بتا، مانند کارودیلول
+محرک CNS مانند کوکائین و آمفتامین ها
+هورمون های مصنوعی، از جمله لوپرولید (الیگارد)
+داروهای شیمی درمانی سرطان، مانند سایمتیدین (Tagamet)
+مسدود کننده های آلفا آدرنرژیک، از جمله تامسولوسین (Flomax)
+دیورتیک ها، مانند فوروزمید (لاستیک) و اسپیرونولاکتون (آلداکتون)
+تحریک کننده سیستم های عصبی مرکزی (CNS)، مانند آلپرازولام (Xanax)، دیازپام (Valium) و کدئین
+مهار کننده های انتخابی بازجذب سروتونین (SSRI)، مانند فلوکستین (پروزاک) و پاروکستین (Paxil)"
+                android:textColor="@color/black"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_txt"
+                android:gravity="right"
+                android:padding="5dp"
+
+                android:text="سیگار کشیدن
+استعمال دخانیات و سایر موارد مصرف دخانیات به بسیاری از مشکلات سلامتی از جمله اختلال نعوظ مرتبط است. استفاده از دخانیات باعث کاهش جریان خون در کل بدن و حتی رگ های خونی در آلت تناسلی مردان می شود. با اختلال خونرسانی در آلت تناسلی، دستیابی و حفظ نعوظ برای مردان بسیار دشوارتر می شود. خوشبختانه عارضه، قابل برگشت است و مردان می توانند با ترک سیگار وضعیت جنسی خود را بهبود ببخشند. استفاده بیش از حد از الکل و داروهای تفریحی (از جمله ماری جوانا) نیز می تواند منجر به علائم ED شود."
+                android:textColor="@color/black"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:background="@color/white"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:text=" التهاب پروستات و سرطان پروستات
+جای تعجب نیست که یک پروستات ناسالم می تواند منجر به اختلال نعوظ شود. پروستات مسئول ایجاد یکی از فاکتور های اصلی منی است؛ اما هایپرپلازی خوش خیم پروستات (BPH) باعث ED نمی شود، داروهای مورد. از طرف دیگر، التهاب مزمن پروستات یا سرطان پروستات می تواند باعث انزال دردناک و مشکل در رسیدن به نعوظ شود. مردان با مشکلات پروستات و اختلال نعوظ بهتر است حتما با پزشک خود مشورت کنند."
+                android:textColor="@color/black"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

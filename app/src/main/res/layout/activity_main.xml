@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activityback"
+    tools:context=".MainActivity">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-94dp"
+        tools:layout_editor_absoluteY="-16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/button_sestem"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:text="سیستم ایمنی بدن"
+                android:textColor="#9C27B0"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_mo"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#9C27B0"
+                android:background="@drawable/button"
+                android:text="ریزش مو" />
+
+            <Button
+                android:id="@+id/button_hejamat"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:textColor="#9C27B0"
+                android:textStyle="bold"
+                android:background="@drawable/button"
+                android:text="حجامت" />
+
+            <Button
+                android:id="@+id/button_tagzie"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textStyle="bold"
+                android:textColor="#9C27B0"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:text="تغذیه" />
+
+            <Button
+                android:id="@+id/button_badan"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#E040FB"
+                android:background="@drawable/button"
+                android:text="بدنسازی" />
+
+            <Button
+                android:id="@+id/button_damnosh"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textColor="#E040FB"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:background="@drawable/button"
+                android:text="دمنوش ها" />
+
+            <Button
+                android:id="@+id/button_boo"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:textColor="#E040FB"
+               android:textStyle="bold"
+                android:background="@drawable/button"
+                android:text="بوی عرق بدن" />
+
+            <Button
+                android:id="@+id/button_zibai"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#E040FB"
+                android:background="@drawable/button"
+                android:text="میوه برای زیبایی" />
+
+            <Button
+                android:id="@+id/button_chagi"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:textColor="#E040FB"
+                android:textStyle="bold"
+                android:background="@drawable/button"
+                android:text="چاقی و لاغری" />
+
+            <Button
+                android:id="@+id/button_jensi"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#E040FB"
+                android:background="@drawable/button"
+                android:text="ناتوانی جنسی " />
+
+            <Button
+                android:id="@+id/button_hasasiat"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+               android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:textColor="#E040FB"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:text="حساسیت" />
+
+            <Button
+                android:id="@+id/button_osotikhan"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textColor="#E040FB"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:text="پوکی استخوان " />
+
+            <Button
+                android:id="@+id/button_srama"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:textColor="#E040FB"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:text="سرما خوردگی " />
+
+            <Button
+                android:id="@+id/button_dandan"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:textStyle="bold"
+                android:textColor="#E040FB"
+                android:gravity="center"
+                android:text="دندان" />
+
+            <Button
+                android:id="@+id/button_ofonat"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:textColor="#E040FB"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:background="@drawable/button"
+                android:gravity="center"
+                android:text="عفونت" />
+
+            <Button
+                android:id="@+id/button_Post"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:textColor="#E040FB"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:gravity="center"
+                android:text="پوست" />
+
+            <Button
+                android:id="@+id/button_kamar"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="#E040FB"
+                android:text="کمر درد" />
+
+            <Button
+                android:id="@+id/button_garma"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="#E040FB"
+                android:background="@drawable/button"
+                android:gravity="center"
+                android:text="گرما زدگی" />
+        </LinearLayout>
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

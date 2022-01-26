@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context=".Damnosh">
+<com.google.android.material.card.MaterialCardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/damnosh" />
+
+            <TextView
+                android:id="@+id/textView_asli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_txt"
+                android:gravity="right"
+                android:padding="10dp"
+                android:text="دمنوش گیاهی در بسیاری از موارد میتواند جایگزین درمان های شیمیایی شود.
+
+نوشیدنی هایی که در این مقاله مـعـرفی می شوند؛ جایگزین هایی مناسب، خوش طعم و مفید برای چای هستند.
+
+هر کس می تواند بر اساس سلیقه و ذایقه خود و نیز با توجه به بیماری ها یا نیازهای بدنی خویش (و حتی بر اساس فصول مختلف سال) از این نوشیدنی ها بهره ببرد. با به کار بردن کمی ذوق و سلیقه می توانید
+
+ترکیبات گوناگونی از این نوشیدنی ها را تهیه نمایید؛ برای مثال اگر با خوردن چای بادرنجبویه احساس می کنید دچار افزایش فشار خون می شوید؛ با اضافه کردن چند برگ چای ترش به نوشیدنی خود، ضمن رفع مشکل، یک چای جدید با طعمی متفاوت را تجربه خواهید کرد.
+
+به یاد داشته باشید که با ترکیب چای های مختلف، هر کدام از مواد تشکیل دهنده آن چای، خواص خود را به طور جداگانه حفظ خواهند کرد."
+                android:textColor="@color/black"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_txt"
+                android:gravity="right"
+                android:padding="10dp"
+                android:text="انواع دمنوش گیاهی و خواص و طریقه مصرف:"
+                android:textColor="@color/black"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_txt"
+                android:gravity="right"
+                android:padding="10dp"
+                android:text="۱- دمنوش گیاهی گـل گـاو زبـان و سنبل الطیب:"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_txt"
+                android:gravity="right"
+
+                android:padding="10dp"
+                android:text="ترکیبات: گل گاوزبان، ۲ قاشق غذاخوری؛ سنبل طیب، ۱ قاشق مرباخوری؛ لیموعمانی،۱عدد.
+
+خواص: گل گاو زبان، طبیعتی گرم و تر و ضد سودا و صفرا دارد و آرام بخش اعصاب، خواب آور و مسکن سردردهای عصبی و دردهای کلیوی و کاهش دهنده فشار خون است.
+
+سنبل طیب هم با طبیعت گرمی که دارد؛ ضد قولنج و اسپاسم های عضلانی و مفید در درمان تشنج و صرع بوده؛ قوه باه (میل جنسی) را نیز تقویت می کند."
+                android:textColor="@color/black"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_txt"
+                android:gravity="right"
+                android:padding="10dp"
+                android:text="۲- دمنوش گیاهی به لیمو و زیرفون:"
+                android:textColor="@color/black"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_txt"
+                android:gravity="right"
+                android:padding="10dp"
+                android:text="ترکیبات: به لیمو، ۱قاشق مربا خوری و زیرفون، ۱قاشق غذاخوری.
+
+خواص: طبیعت این چای گرم بوده؛ در درمان سرماخوردگی، تشنج، نقرس، دردهای سیاتیکی، غلظت خون، روماتیسم، بی خوابی های شبانه، میگرن، اضطراب، تپش قلب، سردرد، آسم، فشارخون و اسهال موثر است؛
+
+همچنین این چای، تقویت کننده حافظه، شستشو دهنده کلیه و مقوی معده است.
+
+مصرف این چای به علت دارا بودن زیرفون، برای خانم های باردار ممنوع است."
+                android:textColor="@color/black"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_txt"
+                android:gravity="right"
+                android:padding="10dp"
+                android:text=" 3:دمنوش گیاهی به لیمو:"
+                android:textColor="@color/black"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_txt"
+                android:gravity="right"
+                android:padding="10dp"
+                android:text="ترکیبات: به لیمو ۱قاشق غذاخوری.
+
+خواص: این چای آرام بخش، طبیعتی گرم دارد و مناسب برای درمان بی خوابی های شبانه، میگرن، سردرد، طپش قلب و آسم بوده؛ ضمن تقویت معده و آثار ضد نفخ، حافظه را نیز بهبود می بخشد."
+                android:textColor="@color/black"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+    </ScrollView>
+</com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

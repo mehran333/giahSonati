@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Mive">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/mive" />
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_txt"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="افراد زیادی هستند که دوست دارند به جای استفاده از محصولات آرایشی، از مواد طبیعی برای بهبود پوست و موی خود استفاده کنند. در این نوشتار چند میوه و نحوه استفاده از آنها به همین منظور معرفی شده است"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="match_parent"
+            android:layout_height="178dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_txt"
+            android:padding="5dp"
+            android:text="سیب درمانی کنید
+گفته می‌شود که خوردن یک واحد سیب در طول روز، روند پیر شدن پوست را به‌تاخیر می‌اندازد. سیب حاوی ویتامین C‌بوده و باعث سفت شدن پوست و رنگ گرفتن آن می‌شود. به‌علاوه، این میوه می‌تواند از آسیب‌هایی که رادیکال‌های آزاد در بدن ایجاد می‌کنند جلوگیری کند. رادیکال‌های آزاد می‌توانند باعث پیری زودرس پوست شوند که سیب در برابر این آسیب‌ها از پوست حفاظت می‌کند. برای مبارزه با پیری پوست، سیب گاز بزنید."
+            android:textColor="#121212"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_txt"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="نحوه مصرف:
+برای داشتن پوستی درخشان و جوان، حتما روزانه یک عدد سیب بخورید. همچنین می‌توانید آب سیب را روی پوست خود بمالید و پس از ۱۰‌دقیقه آبکشی کنید."
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="match_parent"
+            android:layout_height="137dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_txt"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="صافکاری چین و چروک‌ها با چغندر
+هر‌قدر آنتی‌اکسیدان بیشتری در بدن خود داشته باشید، پوستتان شفاف‌تر خواهد بود. چغندر غذایی است که مصرف آن می‌تواند خیال شما را از این بابت راحت کند. این میوه سرشار از آنتی‌اکسیدان و آنتوسیانین است که از چین و چروک پوست جلوگیری می‌کنند. پس چغندر بخورید تا پوستی شفاف و صورتی رنگ داشته باشید."
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape_txt"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="نحوه مصرف:
+از آنجا که هضم چغندر خام، دشوار است، می‌توانید آن را به‌صورت پخته مصرف کنید. به‌علاوه برای داشتن طعم بهتر می‌توانید کمی آبلیمو به آن اضافه کنید. علاوه بر خواصی که گفته شد، چغندر رنگ زیبایی نیز به لب‌های شما می‌بخشد."
+            android:textColor="#070707"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView57"
+            android:layout_width="match_parent"
+            android:layout_height="148dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_txt"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="شفاف‌سازی پوست با هویج:
+        هویج حاوی بتاکاروتن است که این ماده در بدن به ویتامین A تبدیل می‌شود. ویتامینA برای داشتن پوستی سالم ضروری است، بنابراین حتما مصرف هویج را به برنامه غذایی روزانه خود اضافه کنید. هویج نه‌ تنها باعث شفافیت پوست می‌شود، بلکه با چین و چروک سطحی پوست نیز مبارزه می‌کند و پوست شما را سالم نگه می‌دارد."
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView58"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/shape_txt"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="نحوه مصرف:
+می‌توانید هویج را همراه با سبزیجات دیگر و به‌صورت سالاد مصرف کنید. به‌علاوه می‌توانید هویج را در غذاهای مختلف مثل انواع خوراک‌ها ریخته و به شکل پخته بخورید. نوشیدن آب هویج که سرشار از فیبر است نیز به زیبایی پوست شما کمک می‌کند."
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView59"
+            android:layout_width="match_parent"
+            android:layout_height="122dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_txt"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="لیمو، اکسیر جوان‌سازی پوست
+وقتی پوستتان زخم می‌شود یا جوش می‌زند، کدر به‌نظر می‌رسد. لیمو میوه‌ای است که می‌تواند این مشکل را برطرف کند و می‌توانید برای روشنایی و شفافیت پوستتان از آن کمک بگیرید. این میوه حاوی ویتامین C بوده و باعث کلاژن‌سازی می‌شود. کلاژن‌سازی هم می‌تواند باعث جوان‌سازی پوست شود."
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_txt"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="نحوه مصرف
+می‌توانید آب‌ لیمو را به‌عنوان چاشنی و همراه سالاد مصرف کنید. به‌علاوه اگر تمایل دارید می‌توانید آب لیمو را در یک لیوان آب گرم ریخته و به‌صورت ناشتا بنوشید. همچنین خوردن آبلیمو همراه آب و یک قاشق عسل بسیار لذیذ و هیجان‌انگیز است. لیمو از آن میوه‌هایی است که با اندکی خلاقیت می‌توانید آن را به شکل‌های مختلف مصرف کنید. پس خلاق باشید و روش‌های مختلف استفاده از لیمو را کشف کنید."
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

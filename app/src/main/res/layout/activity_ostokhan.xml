@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context=".Ostokhan">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/poki" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="254dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_txt"
+                android:gravity="right"
+                android:padding="10dp"
+                android:text="Tپوکی استخوان باعث می شود، که استخوان ها ضعیف و شکننده شوند به حدی شکننده می شوند ،که یک افتادن یا یک تنش خفیف مانند خم شدن یا سرفه ،می تواند باعث شکستگی شود.شکستگی های مرتبط با پوکی استخوان ،اغلب در لگن، مچ دست یا ستون فقرات رخ می دهد.
+
+استخوان ،یک بافت زنده است که دائما در حال شکسته شدن و جایگزینی و بهبود است ، پوکی استخوان زمانی اتفاق می افتد که، تولید استخوان جدید با حذف استخوان های قدیمی همراه نباشد.پوکی استخوان بر مردان و زنان همه نژادها تأثیر می گذارد اما در زنان سفید پوست و آسیایی به خصوص زنان مسن که در معرض یائسگی هستند  در بالاترین حدش وجود دارد.
+
+داروها، رژیم سالم و تمرینات تحمل وزن می توانند به جلوگیری از از دست رفتن استخوان یا تقویت استخوان های ضعیف کمک کنند "
+                android:textColor="@color/black"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_txt"
+                android:gravity="right"
+                android:padding="10dp"
+                android:text="چه چیزی سبب پوکی استخوان می شود؟ علل پوکی استخوان در زنان و مردان چیست؟"
+                android:textColor="#070707" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_txt"
+                android:gravity="right"
+                android:padding="10dp"
+                android:text="وجود استروژن کم در زنان
+ وجود تستوسترون کم در مردان
+دیگر اختلالات هورمونی
+کمبود کلسیم
+کمبود ویتامین D
+شیوه زندگی کم تحرک
+شرایط تیروئیدی
+سیگار
+داروها
+شرایط پزشکی  "
+                android:textColor="#070707" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="match_parent"
+                android:layout_height="136dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_txt"
+                android:padding="10dp"
+                android:text="رژیم غذایی
+شیر بنوشید
+با لذت سبزی بخورید
+پروتئین اضافی نخورید
+کافئین را محدود کنید
+پیاز بخورید
+برنامه ورزشی داشته باشید
+حداقل 30 دقیقه و سه بار در هفته ورزش کنید.
+پیاده روی، دویدن، بلند کردن وزن، بالا رفتن از پله، تنیس، و والیبال را حتما امتحان کنید.
+شنا انجام ندهید، استخوانها و عضلات شما باید در مقابل گرانش برای استخوانی سازی کار کنند."
+                android:textColor="#151515"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

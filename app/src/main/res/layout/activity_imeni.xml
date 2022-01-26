@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context=".Imeni">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imeni_image"
+                android:layout_width="wrap_content"
+                android:layout_height="313dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/mn" />
+
+            <TextView
+                android:id="@+id/txt_image"
+                android:layout_width="match_parent"
+                android:layout_height="406dp"
+                android:layout_margin="8dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/shape_txt"
+                android:padding="5dp"
+                android:text="همه ما عاشق خواب هستیم، درست است؟ با وجود این، اکثرا از سودمندی ارتباط خواب خوب با سیستم ایمنی بدن خبر نداریم.
+
+به زعم خود فکر می کنیم که دلیل خواب خستگی است!
+
+به هر حال نباید قدرت خواب خوب شبانگاهی را دست کم بگیرید. خواب به بدن امکان تغذیه و انرژی می دهد و بعد از استرس های روزانه نیروی تازه ای به سیستم ایمنی می بخشد.
+
+از سوی دیگر، کمبود خواب می تواند موجب کاهش مقدار گلبول سفید شده و در نتیجه توانایی بدن برای مبارزه با عفونت، ویروس و بیماری رو به افول می گذارد.
+
+خواب کمتر از 7 ساعت، احتمال ابتلا به بیماری های ویروسی را افزایش می دهد و نیازی به ذکر نیست که این امر بر عملکرد کلی ذهنی و جسمی هم تاثیر می گذارد.
+
+بنابراین، زود بخوابید!"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="normal"></TextView>
+
+            <ImageView
+                android:id="@+id/imeni_image2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/dastr" />
+
+            <TextView
+                android:id="@+id/txt_image2"
+                android:layout_width="match_parent"
+                android:layout_height="383dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/shape_txt"
+                android:padding="5dp"
+                android:text="رعایت بهداشت:شستن مداوم دستها آسانترین روش برای حفاظت از خود در برابر آلودگی های سطوح، دستها یا لباسها محسوب می شود.
+
+ضدعفونی کننده های الکلی در از بین بردن میکروب ها بسیار موثر هستند اما شستن دستها با آب و صابون (دست کم 20 ثانیه) هم اگر موثرتر نباشد، کم تاثیر هم نیست.
+
+چنانچه جایی کار می کنید که با افراد زیادی در تماس هستید، این امر اهمیت زیادی دارد. اطمینان حاصل کنید که قبل و بعد از غذا، استفاده از دستشویی، سرفه یا عطسه دست هایتان را بشویید.
+
+برای جلوگیری از شیوع بیماری، هنگام عطسه یا سرفه از آرنج تان استفاده کنید و وسایل شخصی مانند حوله و لباس را بدون شستشو در اختیار دیگران قرار ندهید."
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="normal"></TextView>
+
+            <ImageView
+                android:id="@+id/imeni_image3"
+                android:layout_width="wrap_content"
+                android:layout_height="313dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/gaza" />
+
+
+            <TextView
+                android:id="@+id/txt_image3"
+                android:layout_width="match_parent"
+                android:layout_height="887dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/shape_txt"
+                android:padding="5dp"
+                android:text="رژیم غذایی سالم برای تقویت سیستم ایمنی:غذاهای سرشار از مواد غذایی سوخت و ساز مورد نیاز بدن برای حفظ عملکرد مناسب سیستم ایمنی را فراهم می‌کند.
+
+مصرف بیشتر انواع میوه ها و سبزیجات روشی مناسب برای تامین مواد مغذی مورد نیاز است.
+
+میوه ها سرشار از ویتامین های C، D و روی هستند و نیز نوشیدن آب کافی موجب تقویت سیستم ایمنی بدن خواهد شد.
+
+چنانچه محدودیت رژیمی دارید، مکمل هایی وجود دارند که می توانید از آنها استفاده کنید.
+
+داروسازها می توانند در استفاده از بهترین مکمل ها به شما مشاوره دهند.
+
+ویتامین C : به تولید گلبول های سفید و بهبود عملکرد سیستم ایمنی بدن کمک می کنند.
+
+غذاهای حاوی ویتامین C : بروکلی، کیوی، پرتقال، لیمو، انواع توت ها
+
+ویتامین D : در مقابله با عفونت های تنفسی کمک می کنند و از سیستم ایمنی بدن محافظت کرده و آن را تقویت می نماید.
+
+منبع اصلی ویتامین D نور خورشید است اما این ویتامین در برخی غذاها یا مکمل ها هم وجود دارد.
+
+غذاهای حاوی ویتامین D : ماهی های چرب، زرده تخم مرغ و آب پرتقال
+
+روی: آنتی اکسیدان قوی که سیستم ایمنی را تقویت می کند. همچنین به عنوان یکی از بهترین تقویت کننده های سیستم ایمنی بدن شناخته شده است.
+
+غذاهای حاوی روی: گوشت قرمز، مرغ، آجیل و لبنیات
+
+H2O : نوشیدن آب را فراموش نکنید. آب رسانی به مغز باید صورت گیرد. دستورالعمل های فعلی نوشیدن روزانه 8 تا 10 فنجان آب را توصیه می کنند (که شامل قهوه، چای و آب میوه و غیره هم می شود).
+
+آب به حفظ عملکرد سیستم ایمنی بدن و کارکرد بهتر آن کمک می کند. همچنین به دفع سموم بدن از طریق کلیه ها، سیستم لنفاوی و گوارش کمک می کند.."
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="normal"></TextView>
+
+            <ImageView
+                android:id="@+id/imeni_image4"
+                android:layout_width="match_parent"
+                android:layout_height="313dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/esteres" />
+
+            <TextView
+                android:id="@+id/txt_image4"
+                android:layout_width="match_parent"
+                android:layout_height="198dp"
+                android:layout_marginLeft="15dp"
+
+                android:layout_marginRight="15dp"
+                android:background="@drawable/shape_txt"
+                android:padding="5dp"
+                android:text="کاهش استرس
+چه کسی فکر می کرد که استرس به بیماری منتج می شود؟ استرس بیش از حد تولید هورمونی به نام کورتیزول را افزایش می دهد.
+
+مقدار زیاد این هورمون بر سیستم ایمنی بدن غلبه خواهد کرد.
+
+بنابراین استرس بی استرس! در ادامه روشهایی برای کاهش میزان استرس آمده است"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="normal"></TextView>
+        </LinearLayout>
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

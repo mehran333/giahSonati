@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.giahsonati">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Giahsonati">
+        <activity android:name=".GarmaZadegi">
+        </activity>
+
+        <activity android:name=".KamarDard" />
+        <activity android:name=".Post" />
+        <activity android:name=".Ofonat" />
+        <activity android:name=".Dandan" />
+        <activity android:name=".Sarama" />
+        <activity android:name=".Bandsazi" />
+        <activity android:name=".Hasasiat" />
+        <activity android:name=".chagi_two" />
+        <activity android:name=".chagi_one" />
+        <activity android:name=".Hejamat" />
+        <activity android:name=".Moo_two" />
+        <activity android:name=".Moo_one" />
+        <activity android:name=".Ostokhan" />
+        <activity android:name=".Jensi" />
+        <activity android:name=".Chagi" />
+        <activity android:name=".Mive" />
+        <activity android:name=".Boo" />
+        <activity android:name=".Damnosh" />
+        <activity android:name=".Tagzie" />
+        <activity android:name=".Zibai" />
+        <activity android:name=".Moo" />
+        <activity android:name=".Imeni" />
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

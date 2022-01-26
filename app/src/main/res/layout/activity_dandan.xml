@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context=".Dandan">
+<com.google.android.material.card.MaterialCardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/dandan" />
+
+            <TextView
+                android:id="@+id/textView76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_txt"
+                android:gravity="right"
+
+                android:padding="10dp"
+                android:text="زنجبیل: زنجبیل گیاهی است که مانند داروی آسپیرین عمل می‌کند و یک مسکن فعال محسوب می‌شود. اگر پودر زنجبیل را با آب مخلوط کنید، برای تسکین درد دندان بسیار موثر است. پنبه‌ای را به این محلول آغشته کنید. آن را فشار دهید تا آب اضافی خارج شود و سپس آن را روی دندان دردناک (نه روی لثه) بگذارید.عملکرد محلول به این ترتیب است که زنجبیل، پوست آن قسمت را تحریک می‌کند و خون را به سمت پوست می‌کشاند و التهاب را کاهش می‌دهد. همچنین می‌توانید زنجبیل تازه را در آب خیس و با آن غرغره کنید. "
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="377dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape_txt"
+                android:gravity="right"
+                android:padding="10dp"
+                android:text="سیر: سیر، یکی دیگر از درمان‌های خانگی برای تسکین دندان‌درد است. برای این کار بهتر است 1 یا 2 حبه کوچک سیر را در دهانتان بگذارید و آن را به آرامی بجوید.
+
+
+
+اگر از این کار خوشتان نمی‌آید، یک کار دیگر هم می‌توانید انجام دهید. یک حبه سیر را بردارید و آن را خرد و با نمک مخلوط کنید. برای این کار حتی از مخلوط پودر سیر و نمک هم می‌توانید استفاده کنید. سپس این مخلوط را روی دندانی که درد می‌کند، بگذارید. این رویه را باید برای چند روز متوالی انجام دهید. البته این درمان باعث می‌شود دهان بوی سیر بگیرد که چندان خوشایند نیست "
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView78"
+                android:layout_width="377dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_txt"
+                android:gravity="right"
+                android:padding="10dp"
+                android:text=" روغن نارگیل: غرغره کردن با روغن نارگیل از میزان باکتری‌های مضر در دهان می‌کاهد. از این رو، احتمال عفونت دندان‌ها به مراتب کم می‌شود. کافی است 2 قاشق غذاخوری روغن در دهانتان بریزید و 15 تا 20 دقیقه آن را غرغره کنید. روغن نارگیل از بوی بد دهان نیز جلوگیری می‌کند. بهترین زمان برای غرغره کردن روغن نارگیل، زمان ناشتاست.  "
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_txt"
+                android:gravity="right"
+                android:padding="10dp"
+                android:text="نمک و فلفل: یکی از آسان‌ترین گزینه‌ها برای تسکین دندان‌درد، استفاده از ترکیب نمک و فلفل است. این ترکیب جالب خاصیت ضدباکتریایی دارد و به همین دلیل تاثیر مثبتی بر دندان‌درد می‌گذارد. بهتر است مقداری نمک و فلفل را با کمی آب ترکیب کنید تا حالت خمیری به دست آید. سپس ترکیب را روی دندانی که درد می‌کند، بگذارید و اجازه دهید چند دقیقه‌ای روی آن بماند.   "
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_txt"
+                android:gravity="right"
+                android:padding="10dp"
+                android:text="آب نمک: آب نمک یکی از آسان‌ترین گزینه‌هاست که می‌تواند التهاب و دندان‌درد را تسکین دهد. طرز تهیه این محلول نیز بسیار ساده است؛ کافی است یک قاشق غذاخوری نمک را داخل یک لیوان آب گرم بریزید و آن را حل کنید. سپس محلول را غرغره کنید. این درمان خوب است، اما چندان قوی نیست"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

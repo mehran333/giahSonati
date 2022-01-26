@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context=".KamarDard">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/kamar" />
+
+            <TextView
+                android:id="@+id/textView72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="@drawable/shape_txt"
+                android:padding="5dp"
+
+                android:text="کمر درد یک مشکل سلامتی شایع در میان افراد میانسال و مسن است، اما گاهی اوقات اشخاص جوان نیز دچار آن می‌شوند. برخی از علائم کمر درد، وجود درد در ناحیه کمر یا اطراف لگن، کاهش انعطاف‌پذیری ستون فقرات و مشکل در خوابیدن می‌باشد. کمر دردها می‌توانند به دلایل متعددی مانند تنش عضلانی، رژیم غذایی نامناسب، کمبود فعالیت فیزیکی، آرتروز، کار جسمانی بیش از از حد، وضعیت بد بدن هنگام نشستن و بارداری رخ دهند"
+                android:textColor="#0C0C0C"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="12dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_txt"
+                android:padding="5dp"
+                android:text="ریشه زنجبیل: که برای درمان استفراغ استفاده می‌شود را می‌تواند برای درمان کمردرد نیز استفاده کرد. ترکیبات ضد التهابی موجود در زنجبیل موجب تسکین کمر درد می‌گردد.
+
+مقداری خمیر رنجبیل را بر روی ناحیه‌ی متاثر قرار دهید و پس از آن از روغن اکالیپتوس استفاده کنید.
+۴ تا ۶ تکه ریشه زنجبیل تازه را برش داده و آنها را در یک و نیم فنجان آب قرار دهید. به مدت ۱۰ تا ۱۵ دقیقه بر روی حرارت کم بجوشانید. اجازه دهید که این مخلوط خنک شود و به دمای اتاق برسد و سپس آن را صاف کنید. در نهایت مقداری عسل به آن اضافه کرده و بنوشید. شما می‌توانید چای زنجبیل را دو یا سه بار در روز و تا زمانی که بهبودی حاصل شد، مصرف کنید.
+همچنین می‌توانید با نصف قاشق چای‌خوری فلفل سیاه، نصف قاش چای‌خوری میخک و یک قاشق چای‌خوری پودر زنجبیل یک جوشانده گیاهی تهیه کنید."
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="match_parent"
+                android:layout_height="144dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_txt"
+                android:gravity="right"
+                android:padding="5dp"
+                android:paddingLeft="2dp"
+                android:text="زردچوبه :با ترکیب فعال آن یعنی کورکومین به عنوان یک ضد التهاب طبیعی موثر عمل کرده و موجب تسکین درد عضلانی می‌گردد. این ماده به صورت مکمل موجود است و یا می‌توانید مقداری از آن را به غذای خود اضافه کنید."
+                android:textColor="#070707"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_txt"
+
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="برگ‌های ریحان نیز می‌توانند در هنگام کمردرد موثر باشند.
+
+۸ تا ۱۰ برگ ریحان را به یک فنجان آب اضافه کرده و آن را تا زمانی که حجم آب به نیمه برسد بجوشانید.
+اجازه دهید تا این مخلوط در دمای اتاق خنک شود و سپس کمی نمک به آن اضافه نمایید.
+برای درد خفیف، این معجون را یک بار در روز و برای درد شدید دو بار در روز بنوشید."
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

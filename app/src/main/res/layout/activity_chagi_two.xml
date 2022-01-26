@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="@drawable/images"
+    tools:context=".chagi_two">
+<com.google.android.material.card.MaterialCardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/lagari" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_txt"
+                android:padding="10dp"
+                android:text="بهترین و سالم ترین راه برای چاق شدن:
+"
+                android:textColor="@color/black"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_txt"
+                android:elevation="18dp"
+                android:padding="10dp"
+                android:text="حتما یک میان وعده در نظر بگیرید :
+
+آجیل ، کره بادام زمینی،پنیر،میوه های خشک شده و آووکادو ، گزینه های مناسبی برای میان وعده میباشد.گاه به گاه میتوانید از شکر و چربی بیشتری استفاده کنید.اما سعی کنید بیشتر درمان ها سالم باشد که علاوه بر کالری ، مواد مغذی هم داشته باشد.کلوچه های سبوس دار ، ماست و میوه های گرانولا، انتخاب مناسبی است.
+
+ورزش کنید:
+
+ورزش و تمرین به خصوص تمرینات قدرتی میتواند به شما کمک کند که علاوه بر افزایش وزن عضلات خود را نیز بسازید. همچنین ممکن است اشتهای شما را نیز تحریک کند.
+
+تعداد وعده غذایی خود را افزایش دهید:
+
+اگر کمبود وزن دارید خوردن 5 یا 6 وعده غذایی کوچک تر را جایگزین 2 یا 3 وعده غذایی بزرگ نمایید.غذا های غنی از مواد مغذی را انتخاب کنید، به عنوان بخشی از یک رژیم غذایی سالم ، نان ها ،غلات،میوه ها، سبزیجات محصولات لبنی ،آجیل و دانه ها را در برنامه روزانه خود بگنجانید ؛ در برخی مواقع میتوانید از تخم کتان پخته شده نیز استفاده کنید.
+
+
+"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </ScrollView>
+</com.google.android.material.card.MaterialCardView>
+</LinearLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right"
+    android:background="@drawable/images"
+    tools:context=".chagi_one">
+<com.google.android.material.card.MaterialCardView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:elevation="18dp"
+
+                app:srcCompat="@drawable/man" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_txt"
+                android:gravity="right"
+                android:padding="10dp"
+                android:text="به انباشتگی غیر معمول چربی در بدن، اضافه وزن یا چاقی می گویند که می تواند روی سلامت تاثیر بگذارد. شاخص توده بدن (BMI) نسبت قد به وزن ساده ای است که معمولا برای تشخیص اضافه وزن و چاقی در افراد بالغ مورد استفاده قرار می گیرد. چاقی همیشه به علت پرخوری نیست بلکه دلایل چاقی می توانند متفاوت باشند.
+
+"
+                android:textColor="@color/black"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+
+                android:background="@drawable/shape_txt"
+                android:gravity="right"
+                android:padding="10dp"
+                android:text="تشخیص چاقی:"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="91dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_txt"
+                android:gravity="right"
+                android:padding="10dp"
+                android:text="جداول وزن به قد:
+این جداول محدوده کلی وزن های سالم و اضافه وزن برای قد بزرگسالان را نشان می دهد.
+جداول شرایط فردی را در نظر نمی گیرند.
+جداول در شناسایی خطر ابتلا به مشکلات سلامتی مرتبط با وزن بسیار كمتر و وزن بسیار بیشتر از شاخص توده بدنی هستند."
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/jad" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_txt"
+                android:gravity="right"
+                android:padding="10dp"
+                android:text=" درمان چاقی:"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_txt"
+                android:elevation="18dp"
+                android:gravity="right"
+                android:padding="10dp"
+                android:text=" برای اکثر افرادی که اضافه وزن دارند یا چاق هستند، ایمن ترین و موثرترین راه برای کاهش وزن، کمتر خوردن و ورزش بیشتر است. اگر کمتر غذا بخورید و بیشتر ورزش کنید، وزن کم خواهید کرد. هر برنامه کاهش وزن از جمله رویکردهای پزشکی و جراحی نیز شامل کاهش کالری و ورزش خواهد شد. قرص جادویی برای لاغر شدن وجود ندارد.
+
+هر برنامه غذایی مناسب شامل ورزش است که به افزایش متابولیسم بدن کمک می کند و یک فرصت کمتر برای خوردن در طول روز است. شما باید حداقل 30 دقیقه، پنج بار در هفته ورزش کنید. ورزش منظم همچنین به قلب و ریه های شما کمک می کند و باعث کاهش سطح تری گلیسیرید می شود که می تواند باعث کاهش بیماری قلبی شود. همچنین سطح HDL (“کلسترول خوب”) را افزایش می دهد. حتی اقدامات ساده ای مانند بالا رفتن پله ها به جای آسانسور و پیاده روی های کوتاه باعث می شود کالری زیادی سوزانده شود."
+                android:textColor="#000000" />
+
+        </LinearLayout>
+    </ScrollView>
+</com.google.android.material.card.MaterialCardView>
+</LinearLayout>

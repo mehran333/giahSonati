@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context=".Moo_two">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/jooo"
+           android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/shape_txt"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="رژیم غذایی"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_txt"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="اگر می‌خواهید رژیم لاغری بگیرید، حتماً با متخصص تغذیه در مورد مواد غذایی ضروری یا مکمل‌های غذایی مورد نیاز برای تامین ویتامین‌ها، مواد معدنی و پروتئین‌ها مشورت کنید. از رژیم‌های غذایی غیر اصولی دوری کنید؛ چرا که می‌توانند نتایج فاجعه‌باری برای سلامت عمومی شما داشته باشند.
+
+در رژیم‌های غذایی علاوه بر مواد مغذی، میزان کالری مصرفی هم مهم است. پژوهش‌ها نشان می‌دهند که کاهش ناگهانی و افراطی کالری مصرفی روزانه باعث ریزش مو می‌شوند. البته ریزش موی ناشی از رژیم‌های غیراصولی بعد از بازگشت به یک برنامه‌ی غذایی سالم، درمان شده و رشد موها از سر گرفته می‌شود. ولی یادتان باشد که رشد موها بسیار آهسته است و شاید یک سال طول بکشد که دوباره سری پرمو داشته باشید."
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_txt"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="مواد مغذی مهم برای مو"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="252dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape_txt"
+            android:text="تارهای مو از جنس پروتئین هستند؛ بنابراین کمبود پروتئین در رژیم غذایی باعث ایجاد مشکلاتی در روند ساخت مو می‌شود. مصرف مقادیر کافی پروتئین برای جلوگیری از ریزش مو اهمیت ویژه‌ای دارد. ماهی، مرغ و گوشت قرمز، تخم مرغ و حبوبات مهم‌ترین منابع پروتئین در رژیم غذایی هستند که باید مورد توجه قرار بگیرند.
+
+وجود کلسیم و منیزیم به مقدار مناسب در رژیم غذایی برای سلامت مو مهم است. بنابراین مصرف روزانه‌ی لبنیات را در برنامه‌ی غذایی خود داشته باشید.
+
+کمبود آهن علاوه بر ایجاد کم‌خونی و خستگی، می‌تواند موجب ریزش مو نیز بشود. مصرف مقادیر کافی آهن برای خانم‌های در سن قاعدگی اهمیت ویژه‌ای دارد. در صورتی که مقادیر آهن رژیم غذایی کافی نباشد، مصرف مکمل‌ها‌ی آهن توصیه می‌شود."
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/shape_txt"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="جلوگیری از ریزش مو با کاهش استرس"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="174dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_txt"
+            android:padding="5dp"
+            android:text="کی از محل‌های نمایانگر استرس، موهای شما هستند. اگر در زندگی خود حجم زیادی از استرس را تجربه می‌کنید، بدانید که سلامت موهای شما در خطر است. در این شرایط شکنندگی موهای شما افزایش خواهد یافت، تارهای موی شما نازک خواهد شد و فعالیت فولیکول‌های مو برای ساخت تارهای موی جدید دچار اختلالاتی خواهد شد. پس مدیریت استرس در جلوگیری از ریزش مو نقش مهمی دارد. برای کاهش استرس‌های خود می‌توانید از دوستان، خانواده، مشاوران روانشناس یا کلاس‌های آموزشی مدیریت استرس استفاده کنید."
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

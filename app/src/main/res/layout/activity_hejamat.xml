@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context=".Hejamat">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView_hejat"
+                android:layout_width="wrap_content"
+                android:layout_height="311dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/hejamt" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_txt"
+                android:text="حجامت چیست؟"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="161dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_txt"
+                android:text="حجامت، یک فرم باستانی از طب جایگزین است که در آن درمانگر یک فنجان مخصوص را روی پوست شما برای چند دقیقه قرار میدهد، تا مکش ایجاد کند مردم ،آن را برای بسیاری از اهداف، از جمله برای کمک به درد، التهاب، جریان خون، آرامش و به عنوان یک نوع ماساژ عمیق بدن ،استفاده میکنند ؛ فنجان ممکن است ،از موارد زیر ساخته شده باشد:
+
+شیشه ، بامبو ، سفال ، سیلیکون"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_txt"
+                android:gravity="right"
+                android:text="فواید حجامت برای درمان کدام بیماری ها ثابت شده است?"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="426dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_txt"
+                android:lineSpacingExtra="5dp"
+                android:text="مطالعات علمی متعددی در مورد حجامت انجام نشده است ، طبق گزارشی که در سال 2015 در مجله پزشکی سنتی منتشر شده است، بیان میکند که حجامت در درمان آکنه، تبخال و کنترل درد نیز، مفید است. این شبیه به مطالب یک گزارش است ،که در سال 2012 در مجله PLoS One منتشر شده است . محققان استرالیایی و چینی 135 تحقیق را بر روی حجامت انجام داده اند ونتیجه گرفتند ،که حجامت وقتی با روش های درمانی دیگر مثل، طب سوزنی یا مصرف دارو ترکیب شود ، میتواند در درمان مشکلات زیر موثر باشد:
+
+
+
+تبخال
+
+آکنه
+
+فلج صورت
+اسپوندیلوز گردنی
+
+اختلالات خون مانند کم خونی و هموفیلی
+
+بیماری های روماتیسمی مانند آرتریت و فیبرومیالژیا
+
+
+باروری و اختلالات زنان
+مشکلات پوستی مانند اگزما و آکنه
+
+فشار خون بالا
+میگرن
+اضطراب و افسردگی
+تراکم برونشیت ناشی از آلرژی و آسم
+رگهای واریسی
+سرفه کردن
+تراکم برونشیت،
+آسم
+مشکلات گوارشی
+درد
+اما این محققان اظهار داشتند، که بسیاری از مطالعات مورد بررسی آنها ممکن است حالت جانب دارانه داشته باشد و مطالعات بیشتری مورد نیاز است و برخی ادعا می کنند که تحقیقاتی وجود ندارد ،که همه اینها را درمان کند."
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

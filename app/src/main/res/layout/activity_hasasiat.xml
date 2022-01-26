@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context=".Hasasiat">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:padding="8dp"
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+
+            android:layout_weight="1"
+            app:srcCompat="@drawable/hasasiat" />
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/shape_txt"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="آلرژی یا حسساسیت واکنش سیستم ایمنی بدن است و ھنگامی ایجاد می‌شود که سیستم ایمنی ماده‌ای را که معمولاً برای بدن بی‌ضرر است اشتباھاً به عنوان ماده‌ای زیان‌آور شناسایی می‌کند و علیه آن وارد عمل می‌شود. بدن انسان به طور معمول در مقابل عوامل مضری مانند ویروس‌ھا و باکتری‌ھا از خود دفاع می‌کند. اما گاھی اوقات این دفاع در مقابل مواد بی‌ضرری مانند گردوغبار، کپک‌ھا، یا گرده گیاھان صورت می‌گیرد. سیستم ایمنی بدن در مقابل این مواد واکنش نشان‌ داده و مقدار زیادی پادتن می‌سازد . پادتن مانند اسلحه‌ای به آن‌ھا حمله‌ور می‌شود تا آن‌ھا را از بین ببرد. ھر پادتن برای ماده ویژه‌ای ساخته می‌شود و مخصوص ھمان ماده‌ای است که موجب آلرژی می‌شود. به موادی که واکنش آلرژیک ایجاد می‌کنند، اصطلاحاً آلرژن گفته می‌شود."
+            android:textColor="#050505"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_txt"
+
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="نشانه‌ها و علائم آلرژی:"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/shape_txt"
+            android:gravity="right"
+            android:padding="5dp"
+            android:text="گرفتگی و احتقان بینی، عطسه، خارش بینی، ترشح از بینی، خارش گوش‌ھا یا سقف دھان
+التھاب ملتحمه چشم، که چشم‌ھا قرمز و مرطوب به نظر می‌رسند و گاھی ترشح و خارش دارند
+التھاب‌ھای پوستی، که نواحی از پوست خشک، قرمز و خارش دار می‌شود
+کھیر، ضایعات خارش‌دار پوست
+التھاب تماسی پوست، در اثر تماس با ماده به خصوصی، تحریک و خارش رخ می‌دھد
+آسم، مشکل در تنفس به صورت کوتاه‌شدن نفس، سرفه و خس‌خس سینه روی می‌دھد"
+            android:textColor="#0E0E0E"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/hasas" />
+    </LinearLayout>
+</ScrollView>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</LinearLayout>

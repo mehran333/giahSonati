@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    android:padding="8dp"
+    tools:context=".Sarama">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/sarma" />
+
+                <TextView
+                    android:id="@+id/textView69"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/shape_txt"
+                    android:padding="8dp"
+                    android:text="سرماخوردگی یکی از شایع‌ترین بیماری‌های بشر در طول زندگی است و علائمی همچون آبریزش بینی، زکام، سرفه، گلودرد و عفونت سینوس‌ها دارد. در طب سنتی، این ‌ترشحات را که از بینی خارج می‌شود، زکام و‌ترشحات پشت حلق را نزله می‌نامند. این‌ ترشحات موادی بیماری‌زا هستند که باید پاک شوند و به هیچ وجه نباید مانع خروج آنها شد.
+استفاده از گیاهان خلط‌آور، ضدعفونی کننده و نرم کننده سینه و ضد آبریزش بینی به اشکال مختلف، نظیر جوشانده، بخور، ملین و...در گذشته بسیار مرسوم بوده است. اما هرگونه دارویی که مانع آبریزش بینی در هنگام سرماخوردگی شود، مضر است و باعث احتباس‌ ترشحات در بدن و غلیظ شدن و تبدیل آنها به نزله می‌شود که نزله خود عامل بیماری‌های گوناگون می‌باشد."
+                    android:textColor="#040404"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView70"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/shape_txt"
+                    android:gravity="right"
+                    android:padding="8dp"
+                    android:text=" برای تکمیل درمان سرماخوردگی باید از همان ریشه یعنی معده و کبد مشروع کنیم و بسته به مزاج جبلی و سرشتی فرد از موارد زیر به‌صورت مفرد یا ترکیبی بهره می‌بریم:
+
+شربت آبلیموی طبیعی و عسل
+انار، آب انار (ملس)
+لیمو شیرین
+دمکرده انجیر، عناب، سپستان
+آب سیب
+شلغم و آب آن."
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView71"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_txt"
+                    android:gravity="right"
+                    android:padding="8dp"
+                    android:text="و به‌ صورت موضعی می‌توان از موارد زیر استفاده کرد:
+
+دود سیاهدانه، اسفند، عنبرنسارا
+روغن‌مالی ملاج سر و پیشانی با روغن سیاهدانه یا بادام تلخ
+بادکش کتف
+گرم نگه‌داشتن سر با کلاه پشمی یا هر پارچه نخی یا پشمی
+چکاندن روغن سیاهدانه هر شب داخل بینی (2 قطره) برای تخلیه بهتر فضولات
+استشمام رایحه گرم همچون نعناع، گل نرگس و ...
+بخور آویشن، نعنا، اکالیپتوس."
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context=".KamarDard">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_txt"
+
+                android:gravity="right"
+                android:padding="10dp"
+                android:text="شربت سکنجبین برای رفع گرمازدگی
+نوشیدن شربت سکنجبین منافع بسیاری دارد. یکی از منافع سکنجبین این است که چون آن را با یخ خنک کرده و می‌نوشند، صفرا را می‌برد و از التهاب حرارت معده می‌کاهد و آن چه بلغم در معده و روده‌ها باشد، خارج می‌کند. اگر سکنجبین را با ریشه و تخم کاسنی مخلوط کرده و کمی گلاب به آن اضافه کنند، نوشابه‌ای پر سود و شگفت‌آور می‌شود، به خصوص برای کسانی که جگر و معده‌ای گرم داشته یا دچار گرفتگی معده شده‌اند و نیز برای کسانی که مبتلا به نفخ هستند منافع زیادی دارد، اما برای مبتلایان به زخم معده و روده، مضر است."
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView85"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_txt"
+                android:gravity="right"
+                android:padding="10dp"
+                android:text="عناب و شکر
+برای رفع گرمازدگی بهتر است عناب را در آب جوشانده و با کمی شکر به صورت خنک میل کنید.
+همچنین خوردنی‌های سرد و تر مانند گل بنفشه، خاکشیر، هندوانه و تخم خیارین (خیار، کدو، هندوانه و خربزه) نیز توصیه می‌شود.
+البته بهترین دارو برای رفع گرمازدگی دم کرده عناب و زرشک است که همراه با
+مقداری شکر میل می‌شود."
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView86"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_txt"
+                android:gravity="right"
+                android:padding="10dp"
+                android:text="خاکشیر یخ زده و شربت آب‌لیمو
+استفاده از خاکشیر یخ‌زده و شربت آب‌لیمو برای جلوگیری از گرمازدگی موثر است.
+برای جلوگیری از اسهال و تأثیر خنکی، خاکشیر باید به شکل یخ‌زده یا همراه خرده یخ مصرف شود، در غیر این صورت ملین و اسهال‌آور است.
+با توجه به گرمی و آلودگی هوا، مصرف آب‌لیمو نیز به دلیل داشتن ویتامین C که دارای خاصیت ضدعفونی‌کننده است، توصیه می‌شود و نیاز است هر دو روز یک بار، یک عدد لیمو در آب مصرفی استفاده شود."
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView87"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_txt"
+                android:gravity="right"
+                android:padding="10dp"
+                android:text="هندوانه
+هندوانه یک میوه تابستانی لطیف، آبدار، خنک کننده، آرام بخش و مسکن التهابات درونی است که اصولا برای رفع عطش در اوج گرمای تابستان مصرف می‌شود و مورد پسند بسیاری از مردم است.
+طبیعت هندوانه سرد و تر است و برای افراد گرم مزاج بسیار مطلوب است.
+مربای پوست هندوانه برای رفع حرارت بدن، رفع تشنگی و گرمازدگی بسیار مفید است."
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

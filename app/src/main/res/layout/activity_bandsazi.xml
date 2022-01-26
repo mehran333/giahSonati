@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    android:orientation="vertical"
+    tools:context=".Bandsazi">
+
+<com.google.android.material.card.MaterialCardView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/badansazi" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_margin="8dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_txt"
+        android:elevation="18dp"
+
+        android:gravity="right"
+        android:padding="10dp"
+        android:text="دریافت مازاد پروتئین سبب افزایش تولید مواد زائد آن در بدن می شود که دفع این مواد، بار کلیوی را افزایش می دهد .لذا ‏افراط در مصرف پروتئین در دراز مدت ممکن است منجر به مشکلات کلیوی مانند نارسایی کلیه شود. همچنین بدنبال دفع این ‏مواد از ادرار, آب نیز دفع می شود که این امر سبب دهیدراتاسیون (کم آبی) بدن می گردد‎.‎"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/shape_txt"
+        android:elevation="18dp"
+        android:gravity="right"
+        android:padding="10dp"
+        android:scaleType="fitXY"
+        android:text="مواد طبیعی جایگزین:"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_txt"
+        android:elevation="18dp"
+        android:gravity="right"
+        android:padding="10dp"
+        android:text="۱. کشمش:
+کشمش مغذی و نیرودهنده می‌باشد چرا که ۷۵٪ مواد قندی که گلوکز است و قابل جذب به بدن می‌باشد را داراست. گلوکز از منابع تأمین انرژی جهت سوخت و ساز در عضلات درگیر در فعالیت‌ها می‌باشد کشمش برای کودکان ضعیف و کم خون داروئی بی‌نظیر می‌باشد. زیرا کشمش دارای (آهن، کلسیم، فسفر) به اندازه کافی می‌باشد. کشمش به افرادی که نیروی جسمانی ضعیف و بدنی رنجور دارند انرژی می‌دهد، چرا که تمام مواد مورد نیاز بدن از قبیل (مواد قندی، ویتامین آ، ب، پ، پ پ، کلسیم و فسفر) طبیعی را به صورت قابل جذب در دسترس آنان می‌گذارد، یعنی تقریباً تمام موادی را که توسط تستسترون وارد بدن و عضلات می‌شود، را در اختیار عضله قرار می‌دهد. البته بصورت طبیعی. بالاخره کشمش غذایی طبیعی است که انرژی دهنده کامل به بدن و عضلات و گرم کننده بدن بوده و سرشار از ویتامین‌ها و موادی است که مورد نیاز زندگی است. و به طور کامل جذب بدن می‌شود."
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_txt"
+        android:elevation="18dp"
+        android:gravity="right"
+        android:padding="10dp"
+        android:text="۲. عدس
+عدس دارای مواد ازته، مواد چرب، فسفاته به مقدار زیاد است. عدس برای افرادی که زیاد کار می‌کنند یا خیلی ضعیف بدنی دارند مفید است. برای تقویت جسمانی و عضلانی و مقاومت عضلانی از عدس استفاده کنید. زیرا برای تعادل یون‌های بدن و سلامتی و رفع ضعیف بدن مؤثر است."
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="#FDFDFD"
+        android:elevation="18dp"
+        android:gravity="right"
+        android:padding="10dp"
+        android:text="3. توت فرنگی:
+توت فرنگی در اصل طبیعتی سرد دارد و دارای مقدار زیادی پروتئین و ویتامین و … است. میوه توت فرنگی تقویت کننده عمومی بدن بوده و اشتها آور نیز است. برای کم خونی نیز مؤثر است. تصفیه کننده خون و رفع کنندهی  ضعف اعصاب نیز می‌باشد."
+        android:textColor="#070707"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="#FDFDFD"
+        android:elevation="18dp"
+        android:gravity="right"
+        android:padding="10dp"
+        android:text="4.سیر:
+یونانیان پیش از هر نبردی در المپیاد مقدار زیادی سیر می‌خوردند تا نیروی جسمی و قدرت عضلاتشان بیشتر شود. امروزه این خاصیت چنین توصیف می‌شود که: با تأثیر مثبتی که سیر بر روی جریان خون می‌گذارد تندرستی و نیروی جسمی را افزایش و توان قدرت و استقامت عضلات را برای فعالیت بیشتر با خستگی کمتر ایجاد می‌کند. سیر دارای مواد ازته، هیدروکربنه، املاح و مواد معدنی، ویتامین‌ها، و … است بعبارتی سیر نیرو دهنده به عضلات می‌باشد. جریان خون را تسهیل می‌کند و عضلات قلب را کاملاً تقویت می‌کند."
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="match_parent"
+        android:layout_height="206dp"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_txt"
+        android:gravity="right"
+        android:padding="10dp"
+        android:text="5.سیب:
+اگر هر روز صبح یک سیب تازه بخورید هیکل شما خوش اندام مانده و به پیری زودرس و ضعف عضلانی دچار نخواهید شد. سیب دارای ویتامین A-B-C ، سلولز، مواد قندی ۸۶٪، پتاس، سود، آهک و… بوده و مقاومت بدن و عضلات فعال بدن را در مقابل مشکلات و ناملایمت‌ها و فشارها افزایش و تقویت می‌کند. سیب عضلات را غذا می‌دهد و باعث تقویت عضلات و فعالتر شدن آنها می‌شود چنانچه از سیب مصرف و فعالیت‌های عضلانی را انجام دهند باعث افزایش قدرت و حجیم تر شدن قطر عضله خواهد شد. همچنین سیب اثر تصفیه کننده خون و حیات بخش در بافت‌های بدن را دارد. به همین علت برای رفع خستگی‌های جسمانی (مخصوصاً ورزشکاران) بسیار مفید و مؤثر است"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape_txt"
+        android:elevation="18dp"
+        android:gravity="right"
+        android:padding="10dp"
+        android:text="6. اسفناج:
+رفع کننده سستی اعضاء بدن و تقویت کننده عضلات و محکم کننده استخوان‌هاست. اسفناج به واسطه داشتن مواد قندی نیرو بخش است و مصرف آن برای افزایش قدرت و حجم عضلات مؤثر است. کلروفیل اسفناج عاملی برای تقویت قلب است. اخیراً ثابت شده اسفناج گلبول‌های قرمز را زیاد می‌کند و به این خاطر برای افراد پیر و جوان‌ها و بچه‌ها مؤثر است. همیشه قبل از غذا یک فنجان آب اسفناج بخورید. برای افزایش مقاومت عضلات و بالا بردن توان عضلات و رفع خستگی جسمانی و خستگی عصبی با دقت یک مشت بزرگ اسفناج و یک مشت بزرگ شاهی را بشوئید و از آسیاب مخصوص سبزی‌ها رد کنید. سپس آنرا صاف کرده هر روز ناشتا یک فنجان بخورید تا آنجا که ممکن است اسفناج‌های تازه و لطیف را در سالاد داخل کرده و مصرف نمائید."
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+    </ScrollView>
+</com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>
