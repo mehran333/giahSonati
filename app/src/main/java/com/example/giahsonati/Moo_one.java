@@ -30,14 +30,6 @@ TextView textView1,textView2,textView3,textView4,textView5,textView6,textView7;
 
     }
 
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        if (item.getItemId()==android.R.id.home){
-            finish();
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
 
 
     }

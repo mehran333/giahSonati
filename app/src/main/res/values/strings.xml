@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">سبزی نو</string>
+    <string name="app_name">طبیب</string>
+    <string name="Confirmed">تعداد مبتلایان:</string>
+    <string name="diea">تعداد فوت کنندگان:</string>
+    <string name="Recovered">تعداد بهبود یافتگان:</string>
+
 </resources>

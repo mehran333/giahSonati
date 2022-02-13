@@ -36,12 +36,4 @@ startActivity(new Intent(Chagi.this,chagi_one.class));
 
     }
 
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        if (item.getItemId()==android.R.id.home){
-            finish();
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
     }

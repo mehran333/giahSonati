@@ -21,8 +21,21 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-
-
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="امار کرونای کشور ایران"
+               android:textColor="@color/black"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                ></androidx.appcompat.widget.AppCompatTextView>
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/rv_covid"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:layout_margin="8dp"></androidx.recyclerview.widget.RecyclerView>
             <Button
                 android:id="@+id/button_sestem"
                 android:layout_width="150dp"
