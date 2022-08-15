@@ -10,6 +10,7 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 
+
 import com.example.giahsonati.Webservice.ApiService;
 import com.example.giahsonati.aoi.People;
 import com.example.giahsonati.aoi.RetrofitApiService;
@@ -119,7 +120,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
 
         Retrofit retrofit = new Retrofit.Builder().addConverterFactory(GsonConverterFactory.create())
-                .baseUrl("http://api.eliyateam.ir/cronastats.php?output=json&country=iran").build();
+                .baseUrl("http://api.eliyateam.ir").build();
         RetrofitApiService retrofitApiService= retrofit.create(RetrofitApiService.class);
         retrofitApiService.getPeople().enqueue(new Callback<List<People>>() {
             @Override
